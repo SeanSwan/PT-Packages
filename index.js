@@ -16,9 +16,21 @@ const server = http.createServer((req, res) => {
     res.end('this is the PACKAGES page');
 }
 
-else if (pathName === '/details') {
+else if (pathName === '/details' && id < packageData.length)  {
   res.writeHead(200, { 'Content-type': 'text/html'});
-  res.end('this is the DETAILS page');
+  
+  fs.readFile(`${__dirname}/package.html`, 'utf-8', (err, data) => {
+    const package = packageData[id];
+    let output = data.replace(/{%PRODUCTNAME%}/g, packageData[id].productName);
+     output = output.replace(/{%IMAGE%}/g, package.image);
+     output = output.replace(/{%PRICE%}/g, package.price);
+     output = output.replace(/{%TWELVEMONTH-TWO%}/g, package.twelvemonth-two);
+     output = output.replace(/{%TWELVEMONTH-THREE%}/g, package.twelvemonth-three);
+     output = output.replace(/{%TWELVEMONTH-FOUR%}/g, package.twelvemonth-four);
+     output = output.replace(/{%TWELVEMONTH-FIVE%}/g, package.twelvemonth-five);
+     output = output.replace(/{%DESCRIPTION%}/g, package.description);
+    res.end(output);
+  });
 
 }
 
