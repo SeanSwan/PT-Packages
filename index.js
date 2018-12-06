@@ -16,12 +16,15 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-type': 'text/html'});
 
     fs.readFile(`${__dirname}/templates/overview.html`, 'utf-8', (err, data) => {
+      let overviewOutput = data;
       
      
 
       fs.readFile(`${__dirname}/templates/card.html`, 'utf-8', (err, data) => {
-      
-        res.end(data);
+        
+        const cardsOutput = packageData.map(el => replaceTemplate(data, el)).join('');
+        overviewOutput = overviewOutput.replace('{%CARDS%}', cardsOutput);
+        res.end(overviewOutput);
       });
     });
    
@@ -42,6 +45,18 @@ else if (pathName === '/details' && id < packageData.length)  {
   });
 
 }
+else if ((/\.(Jpg|jpeg|png|gif)$/i).test(pathName)) {
+  fs.readFile(`${__dirname}/data/img${pathName}`, (err, data) => {
+    res.writeHead(200, {'Content-type': 'image/jpg'});
+    res.end(data);
+  })
+
+
+}
+
+
+
+
 
 // URL NOT FOUND
 else {
