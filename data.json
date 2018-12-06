@@ -1,4 +1,149 @@
-
+[
+  {
+      "id": "0",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "12 months  2x a week $7200   96 sessions",
+      "three": "12 months  3x a week $10,080  144 sessions",
+      "four": "12 months  4x a week $12,480  192 sessions",
+      "five": "12 months  5x a week $16,368  288 sessions",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "1",
+      "productName": "The Game Changer! 6 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "6 months  2x a week  $3600  48 sessions",
+      "three": "6 months  3x a week  $5040  72 sessions",
+      "four": "6 months  4x a week  $6240 96 sessions",
+      "five": "6 months  5x a week  $8184  120 sessions",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "2",
+      "productName": "The New You! 3 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "3 months  2x a week  $1800   24 session",
+      "three": "3 months  3x a week  $2520   36 sessions",
+      "four": "3 months  4x a week  $3120  48 sessions",
+      "five": "3 months  5x a week  $4092  60 sessions",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "3",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "4",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "5",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "6",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "7",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "8",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "9",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "10",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "11",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  },
+  {
+      "id": "12",
+      "productName": "The Life Changer! 12 Months",
+      "image": "huawei-matebook-pro.jpg",
+      "two": "Intel Core i7, 8th generation",
+      "three": "8GB",
+      "four": "512 GB SSD",
+      "five": "13.9-inch, 3K (3,000 x 2,080)",
+      "price": "1499",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+  }
+  
+]
 
 
 
