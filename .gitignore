@@ -8,6 +8,7 @@
 # dependencies
 /node_modules
 
+
 # IDEs and editors
 /.idea
 .project
@@ -34,7 +35,7 @@ yarn-error.log
 testem.log
 /typings
 /assets
-
+/img
 # System Files
 .DS_Store
 Thumbs.db

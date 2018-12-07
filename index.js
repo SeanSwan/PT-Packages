@@ -5,7 +5,7 @@ const url = require('url');
 // Read File from data.JSON using syncrouns only at begining of script  
 // utf-8 specifiys the char encoding 
 
-const json = fs.readFileSync(`{$__dirnaame}/data/data.json`,  `utf-8`);
+const json = fs.readFileSync(`${__dirname}/data/data.json`,  `utf-8`);
 const packageData = JSON.parse(json);
 
 // Creating Server passing in call back function (req, res) runs each time webserver is used
@@ -35,27 +35,27 @@ const server = http.createServer((req, res) => {
 }
 
 // LAPTOP DETAIL---------------------------------------------------------------------------------------------------------------------
-else if (pathName === '/package' && id < packageData.length)  {
+else if (pathName === '/packages' && id < packageData.length)  {
   res.writeHead(200, { 'Content-type': 'text/html'});
 
   
   fs.readFile(`${__dirname}/templates/packages.html`, 'utf-8', (err, data) => {
-    const package = packageData[id];
-    const output = replaceTemplate(data, laptop);
+    const packages = packageData[id];
+    const output = replaceTemplate(data, package);
     
     res.end(output);
     
   });
 
   fs.readFile(`${__dirname}/templates/packages.html`, 'utf-8', (err, data) => {   
-    const package = packageData[id];
+    const packages = packageData[id];
     const output = replaceTemplate(data, package);
     res.end(output);
   });
 
 }
 else if ((/\.(Jpg|jpeg|png|gif)$/i).test(pathName)) {
-  fs.readFile(`${__dirname}/data/img${pathName}`, (err, data) => {
+  fs.readFile(`${__dirname}/img${pathName}`, (err, data) => {
     res.writeHead(200, {'Content-type': 'image/jpg'});
     res.end(data);
   })
@@ -78,7 +78,7 @@ server.listen(1337, '127.0.0.1', () =>  {
 
 // Using regular expression for price.
 function replaceTemplate(originalHtml, package) {
-  let output = originalhtml.replace(/{%PRODUCTNAME%}/g, packageData[id].productName);
+  let output = originalHtml.replace(/{%PRODUCTNAME%}/g, packageData[id].productName);
   output = output.replace(/{%IMAGE%}/g, package.image);
   output = output.replace(/{%PRICE%}/g, package.price);
   output = output.replace(/{%TWELVEMONTHTWO%}/g, package.twelvemonthtwo);
@@ -90,5 +90,3 @@ function replaceTemplate(originalHtml, package) {
   return output;
 }
 
-/*const query = url.parse(req.url, true)
-  console.log(query);*/

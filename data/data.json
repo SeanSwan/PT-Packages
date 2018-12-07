@@ -1,0 +1,40 @@
+[
+  {
+      "id": "0",
+      "productName": "The Life Changer! 12 Months",
+      "image": "life-changer.jpeg",
+      "two": "12 months  2x a week $7200   96 sessions",
+      "three": "12 months  3x a week $10,080  144 sessions",
+      "four": "12 months  4x a week $12,480  192 sessions",
+      "five": "12 months  5x a week $16,368  288 sessions",
+      "price": "Packages Vary",
+      "description": "Commitment and consitancy are key! You're sick and tierd of failing and are ready to give a year commitment for maximum results. keep the gains not the fat and tight muscles! are you up to the 12 month challenge!"
+  },
+  {
+      "id": "1",
+      "productName": "The Game Changer! 6 Months",
+      "image": "the-game-changer.jpeg",
+      "two": "6 months  2x a week  $3600  48 sessions",
+      "three": "6 months  3x a week  $5040  72 sessions",
+      "four": "6 months  4x a week  $6240 96 sessions",
+      "five": "6 months  5x a week  $8184  120 sessions",
+      "price": "Packages Vary",
+      "description": "Your ready to take your results to the next level by ensuring you don't fall off the bandwagon and become the normal satistic weekend warrior. the more you give the more you get. With the 6 month package we will be ablke to really focus on your weakest points and make sure we are allways gaining progression evry single workout!++"
+  },
+  {
+      "id": "2",
+      "productName": "The New You! 3 Months",
+      "image": "the-new-you.jpeg",
+      "two": "3 months  2x a week  $1800   24 session",
+      "three": "3 months  3x a week  $2520   36 sessions",
+      "four": "3 months  4x a week  $3120  48 sessions",
+      "five": "3 months  5x a week  $4092  60 sessions",
+      "price": "Packages Vary",
+      "description": "You got a tight budget but need to live in order to work and can't do it in bad health so try out the 3 month New You package get your feet wet and find all the tresures of life you have been missing all this time."
+  }
+  
+  
+]
+
+
+
