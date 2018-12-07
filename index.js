@@ -14,7 +14,8 @@ const server = http.createServer((req, res) => {
   // pulling pathname from req with const pathName
   // const id is parseing the url to a query specifically to pull the id from the query string
   
-  const pathName = url.parse(req.url, true).pathname;  
+  const pathName = url.parse(req.url, true).pathname; 
+     console.log(pathName); 
     const id = url.parse(req.url, true).query.id;
 
   // PRODUCT OVERVIEW---------------------------------------------------------------------------------------------------------
@@ -40,18 +41,13 @@ else if (pathName === '/packages' && id < packageData.length)  {
 
   
   fs.readFile(`${__dirname}/templates/packages.html`, 'utf-8', (err, data) => {
-    const packages = packageData[id];
+    const package = packageData[id];
     const output = replaceTemplate(data, package);
-    
     res.end(output);
     
   });
 
-  fs.readFile(`${__dirname}/templates/packages.html`, 'utf-8', (err, data) => {   
-    const packages = packageData[id];
-    const output = replaceTemplate(data, package);
-    res.end(output);
-  });
+  
 
 }
 else if ((/\.(Jpg|jpeg|png|gif)$/i).test(pathName)) {
